@@ -9,7 +9,6 @@ vagrant@homestead:~/code$ composer config -g repo.packagist composer https://pac
 vagrant@homestead:~/code$ composer create-project laravel/laravel laravel-shop --prefer-dist "5.5.*"
 ```
 ![file](https://lccdn.phphub.org/uploads/images/201808/27/26305/bUDcj9jIaQ.png?imageView2/2/w/1240/h/0)
-
 ... 中间省略
 ![file](https://lccdn.phphub.org/uploads/images/201808/27/26305/Yw99mURP1x.png?imageView2/2/w/1240/h/0)
 
@@ -21,7 +20,6 @@ vagrant@homestead:~/code$ composer create-project laravel/laravel laravel-shop -
 vagrant@homestead:~/code/laravel-shop$ vim .env
 ```
 ![file](https://lccdn.phphub.org/uploads/images/201808/27/26305/MVCz7hceDX.png?imageView2/2/w/1240/h/0)
-
 **注意：** 项目名称有空格的话，需要双引号括起来，eg: "Laravel Shop"
 
 4. 进入laravl-shop目录，建立Git 代码版本控制
