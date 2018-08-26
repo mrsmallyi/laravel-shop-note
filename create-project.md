@@ -9,8 +9,10 @@ vagrant@homestead:~/code$ composer config -g repo.packagist composer https://pac
 vagrant@homestead:~/code$ composer create-project laravel/laravel laravel-shop --prefer-dist "5.5.*"
 ```
 ![file](https://lccdn.phphub.org/uploads/images/201808/27/26305/bUDcj9jIaQ.png?imageView2/2/w/1240/h/0)
+
 ... 中间省略
 ![file](https://lccdn.phphub.org/uploads/images/201808/27/26305/Yw99mURP1x.png?imageView2/2/w/1240/h/0)
+
 到这里，项目laravel-shop创建完成，项目文件情况如下：
 ![file](https://lccdn.phphub.org/uploads/images/201808/27/26305/e2cczUEwGG.png?imageView2/2/w/1240/h/0)
 
@@ -23,6 +25,7 @@ vagrant@homestead:~/code/laravel-shop$ vim .env
 **注意：** 项目名称有空格的话，需要双引号括起来，eg: "Laravel Shop"
 
 4. 进入laravl-shop目录，建立Git 代码版本控制
+
 ![file](https://lccdn.phphub.org/uploads/images/201808/27/26305/4U5ixXChrM.png?imageView2/2/w/1240/h/0)
 
 Laravel 默认的 .gitignore 文件并没有把 public/js 和 public/css 目录排除掉，前端编译后的 JS 和 CSS 文件会被放到这两个目录中，而编译后的文件是不需要加入到版本库的，因此先编辑 .gitignore 文件
